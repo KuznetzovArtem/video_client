@@ -6,8 +6,10 @@ Foobar is a Python library for dealing with word pluralization.
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
+
+Нужно включить иначе либо gocv не будет работать так как она использует сишный код
 ```bash
-pip install foobar
+go env -w CGO_ENABLED=1
 ```
 
 ## Usage
